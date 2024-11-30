@@ -7,81 +7,65 @@ This repository contains three separate machine learning projects:
 
 Each project includes data preprocessing, model building, evaluation, and results.
 
-## Table of Contents
-- Breast Cancer Prediction
-  - Project Overview
-  - Dataset
-  - Data Exploration
-  - Data Preprocessing
-  - Modeling
-  - Evaluation Metrics
-  - Results
-- Stock Price Prediction
-  - Project Overview
-  - Dataset
-  - Data Exploration
-  - Data Preprocessing
-  - Modeling
-  - Evaluation Metrics
-  - Results
-- Sentiment Analysis
-  - Project Overview
-  - Dataset
-  - Data Exploration
-  - Data Preprocessing
-  - Modeling
-  - Evaluation Metrics
-  - Results
+## Breast Cancer Prediction
+  
+  ### Project Overview
+    This project aims to predict whether a tumor is malignant or benign based on various medical attributes.
+
+  ### Dataset
+    The dataset used for this project is the Breast Cancer Wisconsin (Diagnostic) Data Set.
+
+   ### Data Exploration
+    Exploratory Data Analysis (EDA) was conducted to understand the distribution and relationships between features.
+
+   ### Data Preprocessing
+    Data preprocessing steps include handling missing values, scaling features, and encoding categorical variables.
+
+   ### Modeling
+    Various machine learning models were used, including Logistic Regression, Decision Trees, and Random Forest.
+
+   ### Evaluation Metrics
+    Models were evaluated using accuracy, precision, recall, and F1 score.
+
+   ### Results
+    The best-performing model SVC acheived an accuracy of 96%.
+
+   ## Stock Price Prediction
+   ### Project Overview
+    This project aims to predict stock prices using historical data.
+
+   ### Dataset
+    The dataset used for this project consists of historical stock prices from [source].
+
+   ### Data Exploration
+     Exploratory Data Analysis (EDA) was conducted to identify trends and patterns in the stock prices.
+
+   ### Data Preprocessing
+   Data preprocessing steps include handling missing values, feature engineering, and scaling features.
+
+   ### Modeling
+   Various machine learning models were used, including Linear Regression, Naive Bayes , XGBOOST, Random Forest
+
+   ### Evaluation Metrics
+   Models were evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+
+   ### Results
+   The best-performing model Random forest acheived an accuracy of 76%
+
+  ## Sentiment Analysis
+   ### Project Overview
+   ### Dataset
+   ### Data Exploration
+   ### Data Preprocessing
+   ### Modeling
+   ### Evaluation Metrics
+   ### Results
 - How to Use
 - Contributing
 - License
 
-### Project Overview
-This project aims to predict whether a tumor is malignant or benign based on various medical attributes.
 
-### Dataset
-The dataset used for this project is the Breast Cancer Wisconsin (Diagnostic) Data Set.
 
-### Data Exploration
-Exploratory Data Analysis (EDA) was conducted to understand the distribution and relationships between features.
-
-### Data Preprocessing
-Data preprocessing steps include handling missing values, scaling features, and encoding categorical variables.
-
-### Modeling
-Various machine learning models were used, including Logistic Regression, Decision Trees, and Random Forest.
-
-### Evaluation Metrics
-Models were evaluated using accuracy, precision, recall, and F1 score.
-
-### Results
-The best-performing model SVC acheived an accuracy of 96%.
-
-## Stock Price Prediction
-
-### Project Overview
-This project aims to predict stock prices using historical data.
-
-### Dataset
-The dataset used for this project consists of historical stock prices from [source].
-
-### Data Exploration
-Exploratory Data Analysis (EDA) was conducted to identify trends and patterns in the stock prices.
-
-### Data Preprocessing
-Data preprocessing steps include handling missing values, feature engineering, and scaling features.
-
-### Modeling
-Various machine learning models were used, including Linear Regression, Naive Bayes , XGBOOST, Random Forest
-
-### Evaluation Metrics
-Models were evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
-
-### Results
-The best-performing model Random forest acheived an accuracy of 76%
-
-### Project Overview
-This project aims to predict the sentiment (positive or negative) of a given text (e.g., tweets, reviews, etc.) based on its content using natural language processing (NLP) techniques.
 
 ### Dataset
 The dataset used for this project contains tweets, where each tweet is labeled with its sentiment. The dataset includes attributes such as text, sentiment, age of user, time of tweet, and other demographic information related to the user.
